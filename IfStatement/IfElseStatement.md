@@ -4,13 +4,13 @@ title: Printing Even or Odd Number
 
 ## Purpose:
 
- <p>The purpose of this exercise is to practice the program flow and the sequence of statement executions using the conditional statements.</p>
+ <p>The purpose of this exercise is to practice rearranging code steps to find the largest of two numbers. This exercise will help you master the sequence of statements execution involving conditional statements such as _if--else_ .</p>
 
 
 ## Directions :
 
 <div style="text-align: justify">
-    <p>The following program should print out “x is even” if the remainder of x divided by 2 is 0 and “x is odd” otherwise, but the code is mixed up. Drag the blocks from the left and place them in the correct order on the right. Click on Get Feedback to see if you are right.</p>
+    <p>The following program prompts the user to enter the two numbers, finds the greatest/largest between the two numbers, then display the result on the screen, but the code is mixed up. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
  
 <div id="2-sortableTrash" class="sortable-code"></div> 
 <div id="2-sortable" class="sortable-code"></div> 
@@ -52,7 +52,8 @@ title: Printing Even or Odd Number
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
-    "lang": "en"
+    "lang": "en",
+    "trashId": "2-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

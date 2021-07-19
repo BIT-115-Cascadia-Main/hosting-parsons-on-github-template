@@ -10,7 +10,7 @@ title: Printing Even or Odd Number
 ## Directions :
 
 <div style="text-align: justify">
-    <p>Task: The following program should print out “x is even” if the remainder of x divided by 2 is 0 and “x is odd” otherwise, but the code is mixed up. Drag the blocks from the left and place them in the correct order on the right. Click on Get Feedback to see if you are right.</p>
+    <p>The following program should print out “x is even” if the remainder of x divided by 2 is 0 and “x is odd” otherwise, but the code is mixed up. Drag the blocks from the left and place them in the correct order on the right. Click on Get Feedback to see if you are right.</p>
  
  <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 

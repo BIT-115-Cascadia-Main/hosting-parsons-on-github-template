@@ -1,5 +1,5 @@
 ---
-title: Print Your Speeding Fine
+title: Print Your Speeding Fines
 ---
 
 ## Purpose:

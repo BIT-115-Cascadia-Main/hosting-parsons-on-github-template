@@ -22,7 +22,7 @@ title: Print Your Speeding Fines
 <script type="text/javascript"> 
 (function(){
   var initial = "public class SpeedLimits{\n" +
-    "	public static void min (String args[]){\n" +
+    "	public static void main(String args[]){\n" +
     "		int speed = 87;\n" +
     " 		if (speed &gt;  65 || speed &lt; 75)\n" +
     "			System.out.println(&quot;50&quot;);\n" +

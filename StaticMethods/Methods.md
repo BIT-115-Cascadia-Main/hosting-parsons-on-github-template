@@ -1,10 +1,16 @@
+---
+title: Converts measurements from feet to meters
+---
+
+## Purpose:
+
+ <p>The purpose of this exercise is to practice rearranging code steps that uses a method to convert feet to meters. Arranging these code blocks correctly are important to your understanding of writing codes in Java using static methods.</p>
 
 
+## Directions :
 
-
-
-
-
+<div style="text-align: justify">
+    <p> The following program uses a method to convert measurements from feet to meters. Given a value in feet (an int), it converts it to meters (a double). However, the blocks have been mixed up and includes one extra block that isn't needed in the solution. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
 
 <div id="6-sortableTrash" class="sortable-code"></div> 
 <div id="6-sortable" class="sortable-code"></div> 
@@ -15,28 +21,17 @@
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "public class ConvertBetweenMF {\n" +
+  var initial = "public class ConvertToMeters {\n" +
     "    public static void main(String[] args) 	{\n" +
-    "        System.out.println(&quot;Feet\tMeters\t|\tMeters\tFeet&quot;);\n" +
-    "		for(int feet=1,meters=20;feet&lt;=10&amp;&amp;meters&lt;=65;feet++,meters+=5)\n" +
-    "		{\n" +
-    "		    getMeters(feet);\n" +
-    "			getFeet(meters);\n" +
-    "		}\n" +
-    "	}\n" +
-    "	\n" +
-    "	// given a value in feet (an int), convert it to meters (a double)\n" +
-    "	public static void getMeters(int feet)\n" +
-    "	{\n" +
-    "		System.out.printf(&quot;%d\t%5.3f\t|&quot;, feet , 0.305 * feet );\n" +
-    "	}\n" +
-    "	\n" +
-    "	// given a value in meters (an int), convert it to feet (a double)\n" +
-    "	public static void getFeet(int meters)\n" +
-    "	{\n" +
-    "		System.out.printf(&quot;\t%d\t%5.3f\t\n&quot;, meters, 3.279 * meters );\n" +
-    "	}\n" +
-    "}";
+    "        System.out.println(&quot;Feet\tMeters&quot;);\n" +
+    "        for(int feet=20;feet&lt;=65;feet+=5) getMeters(feet);\n" +
+    "    }\n" +
+    "    public static void getMeters(int feet) {\n" +
+    "        System.out.printf(&quot;%d\t%5.3f\n&quot;, feet , 0.305 * feet );\n" +
+    "    }\n" +
+    "    \n" +
+    "}\n" +
+    "getFeet(meters) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "6-sortable",
     "max_wrong_lines": 10,
@@ -44,7 +39,8 @@
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
-    "lang": "en"
+    "lang": "en",
+    "trashId": "6-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

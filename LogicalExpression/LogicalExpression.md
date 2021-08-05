@@ -10,7 +10,7 @@ title: Print Your Speeding Fines
 ## Directions :
 
 <div style="text-align: justify">
-    <p> The following program should print your fine if you are speeding. If you are going over 65 but less than 75 the fine is 50. If you are going at least 75 and less than 85 the fine is 100. Over that the fine is 200. Howver, the blocks have been mixed up and includes two extra blocks that aren't needed in the solution. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
+    <p> The following program should print your fine if you are speeding. If you are going over 65 but less than 75 the fine is 50. If you are going at least 75 and less than 85 the fine is 100. Over that the fine is 200. However, the blocks have been mixed up and includes two extra blocks that aren't needed in the solution. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
  
  <div id="3-sortableTrash" class="sortable-code"></div> 
 <div id="3-sortable" class="sortable-code"></div> 

@@ -4,7 +4,7 @@ title: Converts measurements from feet to meters
 
 ## Purpose:
 
- <p>The purpose of this exercise is to practice rearranging code steps that uses a method to convert feet to meters. Arranging these code blocks correctly are important to your understanding of writing codes in Java using static methods.</p>
+ <p>The purpose of this exercise is to practice rearranging code steps involving a method. This method converts feet to meters. Arranging these code blocks correctly are important to your understanding of writing codes in Java using static methods.</p>
 
 
 ## Directions :

@@ -12,12 +12,12 @@ title: Converts measurements from meters to feet
 <div style="text-align: justify">
     <p> The following code segments use a method to convert measurements from meters to feet and the method is invoked from the main() method. Given a value in meters (an int), the method converts it to feet (a double). However, the blocks have been mixed up and includes one extra block that isn't needed in the solution. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
 
-<div id="7-sortableTrash" class="sortable-code"></div> 
-<div id="7-sortable" class="sortable-code"></div> 
+<div id="8-sortableTrash" class="sortable-code"></div> 
+<div id="8-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="7-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="7-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="8-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="8-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -34,22 +34,22 @@ title: Converts measurements from meters to feet
     "}\n" +
     "System.out.printf(&quot;%d\t\t%6.3f\n&quot;, feet, getMeters(feet)); #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "7-sortable",
+    "sortableId": "8-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "7-sortableTrash"
+    "trashId": "8-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#7-newInstanceLink").click(function(event){ 
+  $("#8-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#7-feedbackLink").click(function(event){ 
+  $("#8-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 

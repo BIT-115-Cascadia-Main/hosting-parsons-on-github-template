@@ -21,14 +21,16 @@ title: Converts measurements from meters to feet
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "public static void main(String[] args){\n" +
-    "	System.out.println(&quot;Meters\t\tFeet&quot;);\n" +
-    "	for(int meters=20;meters&lt;=65;meters+=5) {\n" +
-    "    	System.out.printf(&quot;%d\t\t%6.3f\n&quot;, meters, getFeet(meters));\n" +
+  var initial = "public class ConvertToFeet {\n" +
+    "	public static void main(String[] args){\n" +
+    "		System.out.println(&quot;Meters\t\tFeet&quot;);\n" +
+    "		for(int meters=20;meters&lt;=65;meters+=5) {\n" +
+    "    		System.out.printf(&quot;%d\t\t%6.3f\n&quot;, meters, getFeet(meters));\n" +
+    "		}\n" +
     "	}\n" +
-    "}\n" +
-    "public static double getFeet(int meters){\n" +
-    "	return 3.279 * meters;\n" +
+    "	public static double getFeet(int meters){\n" +
+    "		return 3.279 * meters;\n" +
+    "	}\n" +
     "}\n" +
     "System.out.printf(&quot;%d\t\t%6.3f\n&quot;, feet, getMeters(feet)); #distractor";
   var parsonsPuzzle = new ParsonsWidget({

@@ -10,7 +10,7 @@ title: Converts measurements from meters to feet
 ## Directions :
 
 <div style="text-align: justify">
-    <p> The following code segment uses a method to convert measurements from meters to feet and the method is invoked from the main() method. Given a value in meters (an int), the method converts it to feet (a double). However, the blocks have been mixed up and includes one extra block that isn't needed in the solution. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
+    <p> The following code segments use a method to convert measurements from meters to feet and the method is invoked from the main() method. Given a value in meters (an int), the method converts it to feet (a double). However, the blocks have been mixed up and includes one extra block that isn't needed in the solution. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
 
 <div id="7-sortableTrash" class="sortable-code"></div> 
 <div id="7-sortable" class="sortable-code"></div> 

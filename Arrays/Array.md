@@ -4,7 +4,7 @@ title: Prints even elements of an array
 
 ## Purpose:
 
- <p>The purpose of this exercise is to practice rearranging code steps involving an array. The program segment prints each even elements of the array. 
+ <p>The purpose of this exercise is to practice rearranging code steps involving an array. The program segment prints each even element of the array. 
   Arranging these code blocks correctly is important to your understanding of how to create, initialize, access, and display elements of an array.</p>
 
 

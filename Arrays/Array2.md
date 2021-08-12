@@ -5,7 +5,7 @@ title: Prints an integer array that is right shifted by one
 ## Purpose:
 
  <p>The purpose of this exercise is to give you opportunity to practice more with arrays. The program prints an integer array that is right shifted by 1. 
-  Arranging these code blocks correctly will improve your understanding on how array arrays work and different operations that can be performed on them.</p>
+  Arranging these code blocks correctly will improve your understanding on how arrays work and different operations that can be performed on them.</p>
 
 
 ## Directions :

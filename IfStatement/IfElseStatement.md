@@ -6,7 +6,6 @@ title: Printing Even or Odd Number
 
  <p>The purpose of this exercise is to practice rearranging code steps to find the largest of two numbers. This exercise will help you master the sequence of statements execution involving conditional statements such as if--else .</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">

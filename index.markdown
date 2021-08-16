@@ -2,54 +2,47 @@
 title: Code Tracing Review
 ---
 
-## Directions 
-<div style="text-align: justify"> 
-The following has the correct code to ‘swap’ the values in x and y (so that x ends up with y’s initial value and y ends up with x’s initial value), but the code is mixed up and contains one extra block which is not needed in a correct solution. 
-Drag the needed blocks from the top into the correct order at the bottom. 
-Check your solution by clicking on the Get Feedback button. Your can click Reset Problem button to reshuffle the code blocks. 
-You will be told if any of the blocks are in the wrong order. </div>
+# Welcome to the BIT 115 Parson's Puzzles Repo
 
+This repo is used to store &amp; publish the Parson's Puzzles for BIT 115
 
+## Topics
 
-<div id="1-sortableTrash" class="sortable-code"></div> 
-<div id="1-sortable" class="sortable-code"></div> 
-<div style="clear:both;"></div> 
-<p> 
-    <input id="1-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="1-newInstanceLink" value="Reset Problem" type="button" /> 
-</p> 
-<script type="text/javascript"> 
-(function(){
-  var initial = "public class CodeTracing{\n" +
-    "    public static void main(String[] args){\n" +
-    "        int x = 2;\n" +
-    "        int y = 3;\n" +
-    "        int temp = 0;\n" +
-    "        temp = x;\n" +
-    "        x = y;\n" +
-    "        y = temp;\n" +
-    "    }\n" +
-    "}\n" +
-    "y = x; #distractor";
-  var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "1-sortable",
-    "max_wrong_lines": 10,
-    "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 2500,
-    "can_indent": true,
-    "x_indent": 50,
-    "lang": "en",
-    "trashId": "1-sortableTrash"
-  });
-  parsonsPuzzle.init(initial);
-  parsonsPuzzle.shuffleLines();
-  $("#1-newInstanceLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.shuffleLines(); 
-  }); 
-  $("#1-feedbackLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.getFeedback(); 
-  }); 
-})(); 
-</script>
+### Introduction To Parson's Problems / Parson's Problems
+
+-   [Getting Started](./IntroToParsonsProblems/FirstExample.md)
+-   [Rearranging part of a program](./IntroToParsonsProblems/RearrangingPartOfAProgram.md)
+
+### Variables and Expressions
+
+-   [ Calculating a value along a line](./VariablesAndExpressions/CalculateLine.md)
+
+### If Statements
+
+-   [Which is the largest number?](./IfStatement/IfElseStatement.md)
+
+### Logical Expressions
+
+-   [How much is your speeding ticket?](./LogicalExpression/LogicalExpression.md)
+
+### Iteration
+
+-   [For loops](./Iterations/forIteration.md)
+-   [While loops](./Iterations/whileIteration.md)
+
+### Static Methods
+
+-   [Convert feet to meters, then print the result (NO return value)](./StaticMethods/Methods.md)
+-   [Convert meters to feet, then return the result](./StaticMethods/MethodWithReturn.md)
+
+### Arrays
+
+-   [Print even numbers](./Arrays/Array.md)
+-   [Print array, right-shifted by one space](./Arrays/Array2.md)
+
+## Extras / Unused:
+
+### Nested Loops
+
+-   [Printing a triangle](./Unused/nestedLoop/NestedLoop.md)
+-   [Swapping two values](./Unused/index.markdown)

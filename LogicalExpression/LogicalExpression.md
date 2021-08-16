@@ -21,16 +21,16 @@ title: Print Your Speeding Fines
 <script type="text/javascript"> 
 (function(){
   var initial = "public class SpeedLimits{\n" +
-    "	public static void main(String args[]){\n" +
-    "		int speed = 87;\n" +
-    " 		if (speed &gt;  65 || speed &lt; 75)\n" +
-    "			System.out.println(&quot;50&quot;);\n" +
-    "		else if (speed &gt;= 75 &amp;&amp; speed &lt; 85)\n" +
-    "			System.out.println(&quot;100&quot;);\n" +
-    "		else\n" +
-    "			System.out.println(&quot;200&quot;);\n" +
-    "	}\n" +
-    "}\n" +
+      " public static void main(String args[]){\n" +
+      "   int speed = 87;\n" +
+      "   if (speed &gt;  65 || speed &lt; 75)\n" +
+      "     System.out.println(&quot;50&quot;);\n" +
+      "   else if (speed &gt;= 75 &amp;&amp; speed &lt; 85)\n" +
+      "     System.out.println(&quot;100&quot;);\n" +
+      "   else\n" +
+      "     System.out.println(&quot;200&quot;);\n" +
+      " }\n" +
+      "}\n" +
     "else if ( speed &gt;= 75 || speed &lt; 85) #distractor\n" +
     "if (speed &gt; 65 &amp;&amp; speed &lt; 75) #distractor";
     function displayErrors(fb) {

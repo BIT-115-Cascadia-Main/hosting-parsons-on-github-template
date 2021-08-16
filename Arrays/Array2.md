@@ -7,7 +7,6 @@ title: Prints an integer array that is right shifted by one
  <p>The purpose of this exercise is to give you opportunity to practice more with arrays. The program prints an integer array that is right shifted by 1. 
   Arranging these code blocks correctly will improve your understanding on how arrays work and different operations that can be performed on them.</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">
@@ -34,6 +33,11 @@ title: Prints an integer array that is right shifted by one
     "	}\n" +
     "}\n" +
     "for (int i = 0; i &lt; arr.length; i++) result[i+1] = arr[i]; #distractor";
+  function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "9-sortable",
     "max_wrong_lines": 10,
@@ -42,7 +46,8 @@ title: Prints an integer array that is right shifted by one
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "9-sortableTrash"
+    "trashId": "9-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

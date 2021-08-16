@@ -6,7 +6,6 @@ title: Print Your Speeding Fines
 
  <p>The purpose of this exercise is to practice rearranging code steps that prints your fine if you are speeding. With this exercise, you will improve your understanding of how logical expressions are used to formulate complex decisions.</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">
@@ -34,6 +33,11 @@ title: Print Your Speeding Fines
     "}\n" +
     "else if ( speed &gt;= 75 || speed &lt; 85) #distractor\n" +
     "if (speed &gt; 65 &amp;&amp; speed &lt; 75) #distractor";
+    function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "3-sortable",
     "max_wrong_lines": 10,
@@ -42,7 +46,8 @@ title: Print Your Speeding Fines
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "3-sortableTrash"
+    "trashId": "3-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -56,4 +61,3 @@ title: Print Your Speeding Fines
   }); 
 })(); 
 </script>
- 

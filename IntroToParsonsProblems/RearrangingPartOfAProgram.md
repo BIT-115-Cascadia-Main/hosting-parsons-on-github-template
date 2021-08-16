@@ -84,7 +84,11 @@ BIT
   "System.out.println(\"To \");\n" +
   "System.out.println(\"BIT \");\n" +
   "System.out.println(\"115\");\n";
-
+  function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
 var parsonsPuzzle = new ParsonsWidget({
 "sortableId": "sortable",
 "max_wrong_lines": 10,
@@ -93,7 +97,8 @@ var parsonsPuzzle = new ParsonsWidget({
 "can_indent": true,
 "x_indent": 50,
 "lang": "en",
-"trashId": "sortableTrash"
+"trashId": "sortableTrash",
+'feedback_cb' : displayErrors
 });
 parsonsPuzzle.init(initial);
 parsonsPuzzle.shuffleLines();

@@ -7,7 +7,6 @@ title: Printing Integer Values in Descending Order
  <p>The purpose of this exercise is to practice rearranging code steps that prints a countdown from 15 to 0. 
   This exercise will reinforce your understanding of how and when to use for loop to solve problems.</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">
@@ -31,6 +30,11 @@ title: Printing Integer Values in Descending Order
     "	}\n" +
     "}\n" +
     "for(int i=15; i&gt;0; i--) #distractor";
+  function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "5-sortable",
     "max_wrong_lines": 10,
@@ -39,7 +43,8 @@ title: Printing Integer Values in Descending Order
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "5-sortableTrash"
+    "trashId": "5-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

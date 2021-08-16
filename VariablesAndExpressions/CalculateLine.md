@@ -41,6 +41,11 @@ when x is 10, y is 8.0
     "      System.out.println(\"when x is 10, y is \" + y);\n" +
     "  }\n" +
     "}";
+    function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
@@ -49,7 +54,8 @@ when x is 10, y is 8.0
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "sortableTrash"
+    "trashId": "sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

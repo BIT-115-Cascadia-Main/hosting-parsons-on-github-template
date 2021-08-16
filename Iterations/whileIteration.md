@@ -7,7 +7,6 @@ title: Printing Integer Values in Ascending Order
  <p>The purpose of this exercise is to practice rearranging code steps that prints all values from 20 to 30. 
   This exercise will reinforce your understanding of how and when to use while loop to solve problems.</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">
@@ -29,6 +28,11 @@ title: Printing Integer Values in Ascending Order
     "	System.out.println(x);\n" +
     "	x++;\n" +
     "}";
+  function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "4-sortable",
     "max_wrong_lines": 10,
@@ -37,7 +41,8 @@ title: Printing Integer Values in Ascending Order
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "4-sortableTrash"
+    "trashId": "4-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

@@ -7,7 +7,6 @@ title: Prints even elements of an array
  <p>The purpose of this exercise is to practice rearranging code steps involving an array. The program segment prints each even element of the array. 
   Arranging these code blocks correctly is important to your understanding of how to create, initialize, access, and display elements of an array.</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">
@@ -28,6 +27,11 @@ title: Prints even elements of an array
     "	if(intArray[j] % 2 == 0) System.out.println(intArray[j]);\n" +
     "} //end of for loop\n" +
     "if(intArray[j] % 2 == 1) System.out.println(intArray[j]); #distractor";
+  function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "8-sortable",
     "max_wrong_lines": 10,
@@ -36,7 +40,8 @@ title: Prints even elements of an array
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "8-sortableTrash"
+    "trashId": "8-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

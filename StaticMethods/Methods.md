@@ -6,7 +6,6 @@ title: Converts measurements from feet to meters
 
  <p>The purpose of this exercise is to practice rearranging code steps involving a method. This method converts feet to meters. Arranging these code blocks correctly is important to your understanding of writing codes in Java using static methods.</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">
@@ -32,6 +31,11 @@ title: Converts measurements from feet to meters
     "    \n" +
     "}\n" +
     "getFeet(meters) #distractor";
+    function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "6-sortable",
     "max_wrong_lines": 10,
@@ -40,7 +44,8 @@ title: Converts measurements from feet to meters
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "6-sortableTrash"
+    "trashId": "6-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

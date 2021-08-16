@@ -6,7 +6,6 @@ title: Converts measurements from meters to feet
 
  <p>The purpose of this exercise is to practice rearranging code steps involving a method with a return value. This method converts meters to feet. Arranging these code blocks correctly is important to your understanding of writing codes in Java using static methods that return values to the main method .</p>
 
-
 ## Directions :
 
 <div style="text-align: justify">
@@ -33,6 +32,11 @@ title: Converts measurements from meters to feet
     "	}\n" +
     "}\n" +
     "System.out.printf(&quot;%d\t\t%6.3f\n&quot;, feet, getMeters(feet)); #distractor";
+      function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "8-sortable",
     "max_wrong_lines": 10,
@@ -41,7 +45,8 @@ title: Converts measurements from meters to feet
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "8-sortableTrash"
+    "trashId": "8-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

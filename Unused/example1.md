@@ -21,7 +21,8 @@ Construct a program that swaps the values of variables <code>x</code> and <code>
     "5";
   function displayErrors(fb) {
       if(fb.errors.length > 0) {
-          alert(fb.errors.join("\n"));
+        console.log(fb.errors);
+        alert(fb.errors.join("\n"));
       }
   }     
   var parsonsPuzzle = new ParsonsWidget({

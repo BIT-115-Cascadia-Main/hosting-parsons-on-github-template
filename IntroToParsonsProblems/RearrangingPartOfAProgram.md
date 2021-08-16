@@ -92,7 +92,7 @@ BIT
 var parsonsPuzzle = new ParsonsWidget({
 "sortableId": "sortable",
 "max_wrong_lines": 10,
-"grader": ParsonsWidget.\_graders.LineBasedGrader,
+"grader": ParsonsWidget._graders.LineBasedGrader,
 "exec_limit": 2500,
 "can_indent": true,
 "x_indent": 50,

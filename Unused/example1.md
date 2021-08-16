@@ -19,6 +19,11 @@ Construct a program that swaps the values of variables <code>x</code> and <code>
     "3\n" +
     "4\n" +
     "5";
+  function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors.join("\n"));
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "p1-sortable",
     "max_wrong_lines": 10,
@@ -27,7 +32,8 @@ Construct a program that swaps the values of variables <code>x</code> and <code>
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "p1-sortableTrash"
+    "trashId": "p1-sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

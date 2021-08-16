@@ -32,7 +32,7 @@ title: Print Your Speeding Fines
       " }\n" +
       "}\n" +
     "else if ( speed &gt;= 75 &vert;&vert; speed &lt; 85) #distractor\n" +
-    "if (speed &gt; 65 &amp;&amp; speed &lt; 75) #distractor";
+    "if (speed &gt; 65 &vert;&vert; speed &lt; 75) #distractor";
     function displayErrors(fb) {
       if(fb.errors.length > 0) {
           alert(fb.errors[0]);

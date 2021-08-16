@@ -25,6 +25,11 @@ title: Introduction To Parson's Problems
     "    System.out.println(&quot;Welcome To BIT 115&quot;);\n" +
     "  }\n" +
     "}";
+  function displayErrors(fb) {
+      if(fb.errors.length > 0) {
+          alert(fb.errors[0]);
+      }
+  }     
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
@@ -33,7 +38,8 @@ title: Introduction To Parson's Problems
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "sortableTrash"
+    "trashId": "sortableTrash",
+    'feedback_cb' : displayErrors
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();

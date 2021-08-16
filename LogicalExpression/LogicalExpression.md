@@ -23,7 +23,7 @@ title: Print Your Speeding Fines
   var initial = "public class SpeedLimits{\n" +
       " public static void main(String args[]){\n" +
       "   int speed = 87;\n" +
-      "   if (speed &gt;  65 || speed &lt; 75)\n" +
+      "   if (speed &gt;  65 &vert;&vert; speed &lt; 75)\n" +
       "     System.out.println(&quot;50&quot;);\n" +
       "   else if (speed &gt;= 75 &amp;&amp; speed &lt; 85)\n" +
       "     System.out.println(&quot;100&quot;);\n" +

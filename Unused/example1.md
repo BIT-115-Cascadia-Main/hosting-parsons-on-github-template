@@ -21,6 +21,8 @@ Construct a program that swaps the values of variables <code>x</code> and <code>
     "5";
   function displayErrors(fb) {
       if(fb.errors.length > 0) {
+        // even when there's multiple errors, there appears to be only 1 error in the array
+        // e.g., when multiple lines are indented wrongly
         console.log(fb.errors);
         alert(fb.errors.join("\n"));
       }

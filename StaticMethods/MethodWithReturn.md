@@ -24,14 +24,14 @@ title: Converts measurements from meters to feet
     "	public static void main(String[] args){\n" +
     "		System.out.println(&quot;Meters\t\tFeet&quot;);\n" +
     "		for(int meters=20;meters&lt;=65;meters+=5) {\n" +
-    "    		System.out.printf(&quot;%d\t\t%6.3f\n&quot;, meters, getFeet(meters));\n" +
+    "    		System.out.printf(&quot;%d\t\t%6.3f&quot;, meters, getFeet(meters));\n" +
     "		}\n" +
     "	}\n" +
     "	public static double getFeet(int meters){\n" +
     "		return 3.279 * meters;\n" +
     "	}\n" +
     "}\n" +
-    "System.out.printf(&quot;%d\t\t%6.3f\n&quot;, feet, getMeters(feet)); #distractor";
+    "System.out.printf(&quot;%d\t\t%6.3f&quot;, feet, getMeters(feet)); #distractor";
       function displayErrors(fb) {
       if(fb.errors.length > 0) {
           alert(fb.errors[0]);

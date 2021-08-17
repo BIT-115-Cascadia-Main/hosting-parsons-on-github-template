@@ -26,7 +26,7 @@ title: Converts measurements from feet to meters
     "        for(int feet=20;feet&lt;=65;feet+=5) getMeters(feet);\n" +
     "    }\n" +
     "    public static void getMeters(int feet) {\n" +
-    "        System.out.printf(&quot;%d\t%5.3f\n&quot;, feet , 0.305 * feet );\n" +
+    "        System.out.printf(&quot;%d\t%5.3f&quot;, feet , 0.305 * feet );\n" +
     "    }\n" +
     "    \n" +
     "}\n" +

@@ -41,7 +41,7 @@ title: Printing Even or Odd Number
     "}";
   function displayErrors(fb) {
       if(fb.errors.length > 0) {
-          alert(fb.errors.join("\n"));
+          alert("• " + fb.errors.join("\n\n• "));
       }
   }     
   var parsonsPuzzle = new ParsonsWidget({

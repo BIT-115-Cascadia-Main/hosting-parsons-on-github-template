@@ -44,7 +44,7 @@ title: Printing Even or Odd Number
   function displayErrors(fb) {
       if(fb.errors.length > 0) {
           alert(fb.errors[0]);
-          alert(fb.errors.toString());
+          alert(fb.errors.join("\n"));
       }
   }     
   var parsonsPuzzle = new ParsonsWidget({

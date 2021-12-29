@@ -21,10 +21,8 @@ title: Printing Even or Odd Number
 <script type="text/javascript"> 
 (function(){
   var initial = "import java.util.Scanner;\n" +
-    "public class JavaProgram\n" +
-    "{\n" +
-    "    public static void main(String args[])\n" +
-    "    {\n" +
+    "public class JavaProgram {\n" +
+    "    public static void main(String args[]) {\n" +
     "        int a, b, big;\n" +
     "        Scanner scan = new Scanner(System.in);\n" +
     "        System.out.print(&quot;Enter Two Number : &quot;);\n" +

@@ -22,14 +22,28 @@ title: Prints even elements of an array
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "int[] intArray = {15, 45, -8, 3, 67, 12, 7, 0};\n" +
-    "for(int j =0; j &lt; intArray.length; j++) {\n" +
-    "	if(intArray[j] % 2 == 0) System.out.println(intArray[j]);\n" +
-    "} //end of for loop\n" +
-    "if(intArray[j] % 2 == 1) System.out.println(intArray[j]); #distractor";
+  var initial = "import java.util.Scanner;\n" +
+    "public class JavaProgram {\n" +
+    "    public static void main(String args[]) {\n" +
+    "        int a, b, big;\n" +
+    "        Scanner scan = new Scanner(System.in);\n" +
+    "        System.out.print(&quot;Enter Two Number : &quot;);\n" +
+    "        a = scan.nextInt();\n" +
+    "        b = scan.nextInt();\n" +
+    "        if(a&gt;b)\n" +
+    "        {\n" +
+    "            big = a;\n" +
+    "        }\n" +
+    "        else\n" +
+    "        {\n" +
+    "            big = b;\n" +
+    "        }\n" +
+    "        System.out.print(&quot;Largest of Two Number is &quot; +big);\n" +
+    "    }\n" +
+    "}";
   function displayErrors(fb) {
       if(fb.errors.length > 0) {
-          alert(fb.errors[0]);
+          alert("• " + fb.errors.join("\n\n• "));
       }
   }     
   var parsonsPuzzle = new ParsonsWidget({

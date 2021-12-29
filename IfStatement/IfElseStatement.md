@@ -12,7 +12,8 @@ title: Printing Even or Odd Number
     <p>The following program prompts a user to enter two numbers, finds the greatest/largest between the two numbers, then display the result on the screen, but the code is mixed up. Drag the blocks from the top and place them in the correct order on the bottom. Click on Get Feedback to see if you are right.</p>
  
 <div id="2-sortableTrash" class="sortable-code"></div> 
-<div id="2-sortable" class="sortable-code"></div> 
+<div id="2-sortable" class="sortable-code">
+<li>import java.util.Scanner</li></div> 
 <div style="clear:both;"></div> 
 <p> 
     <input id="2-feedbackLink" value="Get Feedback" type="button" /> 

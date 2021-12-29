@@ -27,11 +27,9 @@ title: Printing Even or Odd Number
     "    {\n" +
     "        int a, b, big;\n" +
     "        Scanner scan = new Scanner(System.in);\n" +
-    "		\n" +
     "        System.out.print(&quot;Enter Two Number : &quot;);\n" +
     "        a = scan.nextInt();\n" +
     "        b = scan.nextInt();\n" +
-    "		\n" +
     "        if(a&gt;b)\n" +
     "        {\n" +
     "            big = a;\n" +
@@ -40,7 +38,6 @@ title: Printing Even or Odd Number
     "        {\n" +
     "            big = b;\n" +
     "        }\n" +
-    "		\n" +
     "        System.out.print(&quot;Largest of Two Number is &quot; +big);\n" +
     "    }\n" +
     "}";
